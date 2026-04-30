@@ -6931,7 +6931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:10.5_5.0_p7.5"
+		(property "Footprint" "MyLibrary:9.3_4.3_p7.5"
 			(at 97.79 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7984,7 +7984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MyLibrary:MountingHole_3.2mm_M3"
 			(at 21.59 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8059,7 +8059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"
+		(property "Footprint" "MyLibrary:9.3_4.3_p7.5"
 			(at 134.62 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8141,7 +8141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MyLibrary:MountingHole_3.2mm_M3"
 			(at 46.99 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8474,7 +8474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MyLibrary:MountingHole_3.2mm_M3"
 			(at 68.58 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8627,7 +8627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MyLibrary:10.5_5.0_p7.5"
+		(property "Footprint" "MyLibrary:11.2_4.3_p10"
 			(at 97.79 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9614,7 +9614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MyLibrary:MountingHole_3.2mm_M3"
 			(at 87.63 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -10418,7 +10418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"
+		(property "Footprint" "MyLibrary:9.3_4.3_p7.5"
 			(at 38.1 130.81 0)
 			(hide yes)
 			(show_name no)
