@@ -2433,12 +2433,6 @@
 		(uuid "0c8d8856-9c3e-40b1-af4c-4e670432e7df")
 	)
 	(junction
-		(at 39.37 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1017cb48-6d82-48b1-a4ce-d6cd96570e81")
-	)
-	(junction
 		(at 43.18 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2503,12 +2497,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4edab8ea-a652-4d82-afff-4d7086034f4a")
-	)
-	(junction
-		(at 124.46 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5255cc35-d98d-4685-8efb-5bb467867d5f")
 	)
 	(junction
 		(at 166.37 34.29)
@@ -2713,6 +2701,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca1151c6-2eaa-409e-b18c-8487cef0224e")
+	)
+	(junction
+		(at 76.2 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3f18087-6b57-44ea-a486-fb9165fe30a8")
 	)
 	(junction
 		(at 58.42 91.44)
@@ -3194,6 +3188,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 162.56) (xy 105.41 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482a6307-ce09-4583-9c45-51443a61ae79")
+	)
+	(wire
+		(pts
 			(xy 58.42 76.2) (xy 58.42 82.55)
 		)
 		(stroke
@@ -3281,16 +3285,6 @@
 			(type default)
 		)
 		(uuid "5aaec092-a446-4fa5-9afe-5f9bdc792b13")
-	)
-	(wire
-		(pts
-			(xy 124.46 162.56) (xy 134.62 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb20474-939c-4830-ae2f-eea04eaed2fe")
 	)
 	(wire
 		(pts
@@ -3384,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 162.56) (xy 105.41 162.56)
+			(xy 71.12 162.56) (xy 76.2 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3624,16 +3618,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 140.97) (xy 43.18 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e71b881-1985-46a0-890f-650d27421276")
-	)
-	(wire
-		(pts
 			(xy 60.96 68.58) (xy 58.42 68.58)
 		)
 		(stroke
@@ -3814,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 140.97) (xy 39.37 140.97)
+			(xy 26.67 140.97) (xy 43.18 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4334,7 +4318,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 162.56) (xy 124.46 162.56)
+			(xy 110.49 162.56) (xy 134.62 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4548,7 +4532,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 39.37 146.05 90)
+		(at 76.2 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4558,7 +4542,7 @@
 		(dnp no)
 		(uuid "0c5827a2-774a-46e6-a5e2-5b06c5213f7f")
 		(property "Reference" "J9"
-			(at 38.1 146.6851 90)
+			(at 77.47 156.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4568,8 +4552,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FromC1"
-			(at 38.1 144.272 90)
+		(property "Value" "VR_1_1"
+			(at 77.47 159.258 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4580,7 +4564,7 @@
 			)
 		)
 		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 39.37 146.05 0)
+			(at 76.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4591,7 +4575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 146.05 0)
+			(at 76.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,7 +4586,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 39.37 146.05 0)
+			(at 76.2 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,85 +5333,6 @@
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 124.46 157.48 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1591c6c5-5195-4280-81a9-a36b7014616b")
-		(property "Reference" "J12"
-			(at 129.54 156.718 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VR_2GND"
-			(at 132.842 159.512 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 124.46 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 124.46 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "215b126a-ab44-4c77-bfc4-dec0aeeac797")
-		)
-		(instances
-			(project "springreverb_lm386"
-				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J12")
 					(unit 1)
 				)
 			)
