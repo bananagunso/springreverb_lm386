@@ -9341,7 +9341,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A100k"
+		(property "Value" "B10k"
 			(at 215.9 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9425,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700p"
+		(property "Value" "0.47u"
 			(at 226.822 148.336 0)
 			(show_name no)
 			(do_not_autoplace no)
