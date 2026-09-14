@@ -9299,9 +9299,9 @@
 	(footprint "MyLibrary:9.3_4.3_p7.5"
 		(layer "F.Cu")
 		(uuid "5387beb6-341a-4737-a9d3-b6664e88b250")
-		(at 102.87 99.695)
+		(at 101.6 101.6 -90)
 		(property "Reference" "C20"
-			(at 0 -0.5 0)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8628f364-3237-47ce-a94c-f9ab11c1cd52")
@@ -9312,8 +9312,8 @@
 				)
 			)
 		)
-		(property "Value" "4700p"
-			(at 0.05 0.9 0)
+		(property "Value" "0.022uF"
+			(at 0.05 0.9 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f54c4fec-5736-4e91-b9a9-b867c94184a2")
@@ -9325,7 +9325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9338,7 +9338,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9374,7 +9374,7 @@
 			(uuid "f9f31f73-22b4-46ec-8cf3-571c3df33fc2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "3bda47a3-42c3-4a41-aef7-fef6312204f7")
@@ -9386,7 +9386,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -3.81 0)
+			(at -3.81 0 270)
 			(size 2 2)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -9396,7 +9396,7 @@
 			(uuid "4b291e4c-10af-483e-8c1e-458c47437325")
 		)
 		(pad "2" thru_hole circle
-			(at 3.81 0)
+			(at 3.81 0 270)
 			(size 2 2)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -12821,7 +12821,7 @@
 				)
 			)
 		)
-		(property "Value" "VR3_3"
+		(property "Value" "VR4_3"
 			(at 0 2.38 0)
 			(layer "F.Fab")
 			(uuid "343807cd-118d-449f-8a23-82a8e6a48f28")
@@ -18269,7 +18269,7 @@
 				)
 			)
 		)
-		(property "Value" "VR4_1"
+		(property "Value" "VR3_1"
 			(at 0 2.38 0)
 			(layer "F.Fab")
 			(uuid "9b831bb0-921d-4f72-8042-309f9f74e638")
@@ -24526,366 +24526,6 @@
 	)
 	(footprint "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
-		(uuid "cb6b9171-b641-4710-b199-fdb25addd544")
-		(at 105.935 111.65)
-		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
-		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "J22"
-			(at 0 -2.38 0)
-			(layer "F.SilkS")
-			(uuid "e21d44fb-516c-4df9-b104-ad2029dbf991")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "VR_4_1"
-			(at 0 2.38 0)
-			(layer "F.Fab")
-			(uuid "49c7de7c-13b9-4915-842f-583bf3568214")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03ed6288-54f8-44b5-ab47-3513061d75f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75a8d8ed-6bef-47f7-99b0-d9ea392829df")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/be2d5068-a76a-4224-a93e-4a533e708700")
-		(sheetname "/")
-		(sheetfile "springreverb_lm386.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.38 -1.38)
-			(end 0 -1.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0253b652-e293-4ea4-8fdf-3d7a28c4e3bc")
-		)
-		(fp_line
-			(start -1.38 0)
-			(end -1.38 -1.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6f49d17d-b64b-4442-8992-32502b75a739")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 1.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "40501bd0-c17e-4f1e-bc2e-cf171218c4d6")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end 1.38 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b9d3f1a9-17e0-472b-8cf5-668dc2fd258d")
-		)
-		(fp_line
-			(start -1.38 1.38)
-			(end 1.38 1.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "11c0246c-4d3a-472e-9513-920caa8af1a9")
-		)
-		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 1.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c25cad7-5347-4671-a592-ef27438cc9c2")
-		)
-		(fp_line
-			(start -1.77 -1.77)
-			(end -1.77 1.77)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "88c2e14c-d962-48a1-8523-0a44b8c40903")
-		)
-		(fp_line
-			(start -1.77 1.77)
-			(end 1.77 1.77)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fc389390-f1ed-4dee-8c56-c8382bbf7d35")
-		)
-		(fp_line
-			(start 1.77 -1.77)
-			(end -1.77 -1.77)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5fbc809e-ffc4-41b6-84cf-3e6f1745562d")
-		)
-		(fp_line
-			(start 1.77 1.77)
-			(end 1.77 -1.77)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bb672fd3-4466-4d62-ba0f-d5e01bcaa47c")
-		)
-		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5d1d7f8b-a659-4fea-ad9b-e9ec8ddf53bf")
-		)
-		(fp_line
-			(start -1.27 1.27)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f15186e5-f1e4-4a9f-b4c2-20790d7097a4")
-		)
-		(fp_line
-			(start -0.635 -1.27)
-			(end 1.27 -1.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "76f92498-b4a5-48b1-93b9-090b98f631d6")
-		)
-		(fp_line
-			(start 1.27 -1.27)
-			(end 1.27 1.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9e09c833-ae36-41d4-ae5f-4e8650008bac")
-		)
-		(fp_line
-			(start 1.27 1.27)
-			(end -1.27 1.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7a3632f9-054e-4250-abf6-9fbc45c2e83e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "ea5e8b57-4ee7-420c-a0ee-141b38a0ce3f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0)
-			(size 2.3 2.3)
-			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(J22-Pin_1)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "570cec5d-ad18-4617-96e6-0e10522550d8")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "MyLibrary:9.3_4.3_p7.5"
-		(layer "F.Cu")
-		(uuid "cd186e8a-32f8-462e-8e1e-7cfca54ce3f3")
-		(at 101.327319 107.547407 -90)
-		(property "Reference" "C22"
-			(at 0 -0.5 270)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "5028ea38-c3c3-415c-a72e-af0ecabe5c06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "0.022u"
-			(at 0.05 0.9 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "81c1a922-adcb-4ca3-bf19-2eb8b734b4ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a870f8b-35ef-4ce4-ad63-971c87ca045c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4fbc3ac2-144c-4f40-b2fe-97c638809859")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "C_*")
-		(path "/7531eba8-fc44-4afc-b86f-91fe5dff68f7")
-		(sheetname "/")
-		(sheetfile "springreverb_lm386.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -4.65 -2.15)
-			(end 4.65 2.15)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d1ed8616-9492-44a6-bf7c-84769692d343")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "50507e9e-87cf-4815-a93d-5d384143f5fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at -3.81 0 270)
-			(size 2 2)
-			(drill 0.4)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(J18-Pin_1)")
-			(pintype "passive")
-			(uuid "2858daae-3403-417a-9f16-b70cb07879a5")
-		)
-		(pad "2" thru_hole circle
-			(at 3.81 0 270)
-			(size 2 2)
-			(drill 0.4)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(J22-Pin_1)")
-			(pintype "passive")
-			(uuid "449998d7-8de4-44f1-a5a1-6d1076d6e0ba")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-		(layer "F.Cu")
 		(uuid "cdfbfab6-258d-45ce-99a8-c4c2adb789ee")
 		(at 112.552934 95.758 180)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
@@ -25974,7 +25614,7 @@
 	(footprint "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "dff6c45d-da62-49cc-a385-25543ce747c5")
-		(at 105.905345 104.14)
+		(at 106.045 105.41)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "J18"
@@ -25988,7 +25628,7 @@
 				)
 			)
 		)
-		(property "Value" "VR_3_3"
+		(property "Value" "VR_4_1"
 			(at 0 2.38 0)
 			(layer "F.Fab")
 			(uuid "bb9bf198-ce3d-4238-b9c3-bff399a41aea")
@@ -28064,6 +27704,14 @@
 		(uuid "0e517e82-5b7c-453b-bc1c-7e85610001f4")
 	)
 	(segment
+		(start 96.774 104.2924)
+		(end 98.7044 102.362)
+		(width 2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "15a1a3df-ded7-474a-b4e5-98061abe33b2")
+	)
+	(segment
 		(start 88.392 90.7536)
 		(end 88.3406 90.805)
 		(width 2)
@@ -28448,22 +28096,6 @@
 		(uuid "ccf48dab-c3d8-4c98-892e-5f71b224c1ee")
 	)
 	(segment
-		(start 110.363 102.362)
-		(end 110.363 104.782345)
-		(width 2)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "cd493fa9-244a-4255-a72a-6249917b54a6")
-	)
-	(segment
-		(start 99.1716 106.69)
-		(end 96.774 104.2924)
-		(width 2)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "d9f6cca5-7e78-4c09-aaf0-232f83e1b73b")
-	)
-	(segment
 		(start 80.236244 86.504)
 		(end 84.317844 90.5856)
 		(width 2.2)
@@ -28488,6 +28120,14 @@
 		(uuid "df481623-d0ab-4266-831c-a2d6f830c43c")
 	)
 	(segment
+		(start 98.7044 102.362)
+		(end 110.363 102.362)
+		(width 2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "e3501898-f460-4107-867e-5c9c8c16abe5")
+	)
+	(segment
 		(start 77.47 113.792)
 		(end 77.47 112.207527)
 		(width 2)
@@ -28504,28 +28144,12 @@
 		(uuid "e667f638-9b8a-4833-8a0b-1ce3c7806ba1")
 	)
 	(segment
-		(start 110.363 104.782345)
-		(end 108.455345 106.69)
-		(width 2)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "e6a8e0d0-4e81-4f0d-babe-e69fea565a33")
-	)
-	(segment
 		(start 88.224 90.5856)
 		(end 84.317844 90.5856)
 		(width 2.2)
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "e6e1165d-1ef5-4f02-96d1-18ced2057c1f")
-	)
-	(segment
-		(start 108.455345 106.69)
-		(end 99.1716 106.69)
-		(width 2)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "e8b23c49-fa3e-4cbe-a330-7fe38fb1a402")
 	)
 	(segment
 		(start 80.154 86.504)
@@ -28800,12 +28424,12 @@
 		(uuid "f373f9fa-a5e8-4ebc-b24c-f3ebf76ac055")
 	)
 	(segment
-		(start 99.5024 93.281308)
-		(end 100.9529 91.830808)
+		(start 100.9529 91.830808)
+		(end 100.9529 90.5764)
 		(width 1.8)
 		(layer "B.Cu")
 		(net "Net-(C20-Pad1)")
-		(uuid "01736f7e-8583-4d1c-9578-1d2c47492af6")
+		(uuid "122f58f3-ddaa-4489-ab76-7edbcc24daf5")
 	)
 	(segment
 		(start 100.965 90.5643)
@@ -28816,22 +28440,6 @@
 		(uuid "3c557288-8554-4bc9-b018-1644df86726c")
 	)
 	(segment
-		(start 99.5024 93.281308)
-		(end 99.5024 99.2526)
-		(width 1.8)
-		(layer "B.Cu")
-		(net "Net-(C20-Pad1)")
-		(uuid "5b3077d0-6ff8-4048-b08e-4a3bf81059b7")
-	)
-	(segment
-		(start 99.5024 99.2526)
-		(end 99.06 99.695)
-		(width 1.8)
-		(layer "B.Cu")
-		(net "Net-(C20-Pad1)")
-		(uuid "5e845121-d595-4a53-9962-17806b42c7be")
-	)
-	(segment
 		(start 100.965 87.884)
 		(end 100.965 90.5643)
 		(width 1.8)
@@ -28840,12 +28448,28 @@
 		(uuid "6200d8e0-9314-4a38-b251-ff75ff0114af")
 	)
 	(segment
-		(start 100.9529 91.830808)
-		(end 100.9529 90.5764)
+		(start 99.5024 93.281308)
+		(end 100.9529 91.830808)
 		(width 1.8)
 		(layer "B.Cu")
 		(net "Net-(C20-Pad1)")
-		(uuid "ec4d8cf9-1668-4245-82b1-ac6017ad2541")
+		(uuid "7f004f1a-8154-42df-baaf-b772c9cd0dc5")
+	)
+	(segment
+		(start 99.5024 95.6924)
+		(end 101.6 97.79)
+		(width 1.8)
+		(layer "B.Cu")
+		(net "Net-(C20-Pad1)")
+		(uuid "cea270f6-224a-4916-a170-cc6fba0e099a")
+	)
+	(segment
+		(start 99.5024 93.281308)
+		(end 99.5024 95.6924)
+		(width 1.8)
+		(layer "B.Cu")
+		(net "Net-(C20-Pad1)")
+		(uuid "db5660af-83ab-4d2e-aa2c-ab10536c2be3")
 	)
 	(segment
 		(start 105.577 93.472)
@@ -29176,36 +28800,12 @@
 		(uuid "9359c434-fb52-47e9-9434-4d56c38ad5e5")
 	)
 	(segment
-		(start 105.905345 100.469655)
-		(end 106.68 99.695)
+		(start 106.045 105.41)
+		(end 101.6 105.41)
 		(width 1.8)
 		(layer "B.Cu")
 		(net "Net-(J18-Pin_1)")
-		(uuid "001a995a-6c20-48b1-90a1-b5001df35d02")
-	)
-	(segment
-		(start 105.502752 103.737407)
-		(end 105.905345 104.14)
-		(width 1.8)
-		(layer "B.Cu")
-		(net "Net-(J18-Pin_1)")
-		(uuid "5f6f4b1c-4fc3-436f-bbbe-1ab9af7a390d")
-	)
-	(segment
-		(start 105.905345 104.14)
-		(end 105.905345 100.469655)
-		(width 1.8)
-		(layer "B.Cu")
-		(net "Net-(J18-Pin_1)")
-		(uuid "e5f4714d-ac15-415d-93bd-34bc55adeb27")
-	)
-	(segment
-		(start 101.327319 103.737407)
-		(end 105.502752 103.737407)
-		(width 1.8)
-		(layer "B.Cu")
-		(net "Net-(J18-Pin_1)")
-		(uuid "ef4b46b6-4e25-4909-add6-526002199ecd")
+		(uuid "1c2bbd6d-db82-44da-88bc-46a6e28bf7a1")
 	)
 	(segment
 		(start 69.104 78.375)
@@ -29535,21 +29135,37 @@
 		(net "Net-(C14-Pad2)")
 		(uuid "e668d25c-c44e-4a26-91a2-f0dabcb19d72")
 	)
-	(segment
-		(start 105.642407 111.357407)
-		(end 105.935 111.65)
-		(width 1.8)
-		(layer "B.Cu")
-		(net "Net-(J22-Pin_1)")
-		(uuid "0a5d3b00-a14c-4579-8aff-4a30ac5f5443")
-	)
-	(segment
-		(start 101.327319 111.357407)
-		(end 105.642407 111.357407)
-		(width 1.8)
-		(layer "B.Cu")
-		(net "Net-(J22-Pin_1)")
-		(uuid "1e531081-12f3-47e5-b1c0-747e768b36bf")
+	(zone
+		(net "Net-(J4-Pin_1)")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 73.14 111.692) (xy 71.64 111.692) (xy 71.400648 112.923619) (xy 72.39 113.793) (xy 73.379352 112.923619)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 73.138628 111.695427) (xy 73.14184 111.701468) (xy 73.378071 112.917029) (xy 73.376285 112.925804)
+				(xy 73.374309 112.92805) (xy 72.397723 113.786213) (xy 72.389246 113.7891) (xy 72.382277 113.786213)
+				(xy 71.40569 112.92805) (xy 71.401737 112.920015) (xy 71.401927 112.917034) (xy 71.63816 111.701468)
+				(xy 71.643102 111.694001) (xy 71.649645 111.692) (xy 73.130355 111.692)
+			)
+		)
 	)
 	(zone
 		(net "Net-(J4-Pin_1)")
@@ -29584,42 +29200,10 @@
 		)
 	)
 	(zone
-		(net "Net-(J4-Pin_1)")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 73.14 111.692) (xy 71.64 111.692) (xy 71.400648 112.923619) (xy 72.39 113.793) (xy 73.379352 112.923619)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 73.138628 111.695427) (xy 73.14184 111.701468) (xy 73.378071 112.917029) (xy 73.376285 112.925804)
-				(xy 73.374309 112.92805) (xy 72.397723 113.786213) (xy 72.389246 113.7891) (xy 72.382277 113.786213)
-				(xy 71.40569 112.92805) (xy 71.401737 112.920015) (xy 71.401927 112.917034) (xy 71.63816 111.701468)
-				(xy 71.643102 111.694001) (xy 71.649645 111.692) (xy 73.130355 111.692)
-			)
-		)
-	)
-	(zone
-		(net "Net-(U1C-V-)")
+		(net "Net-(J6-Pin_1)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30003)
+		(priority 30016)
 		(attr
 			(teardrop
 				(type padvia)
@@ -29634,16 +29218,17 @@
 		)
 		(polygon
 			(pts
-				(xy 86.2948 85.888991) (xy 84.4948 85.888991) (xy 84.3948 87.532722) (xy 85.3948 87.989991) (xy 86.3948 87.532722)
+				(xy 100.446 70.984) (xy 102.246 70.984) (xy 102.346 69.984) (xy 101.346 68.833) (xy 100.346 69.984)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 86.292064 85.892418) (xy 86.295469 85.899981) (xy 86.394312 87.52471) (xy 86.391394 87.533176)
-				(xy 86.3875 87.53606) (xy 85.399666 87.987766) (xy 85.390717 87.98809) (xy 85.389935 87.987766)
-				(xy 84.4021 87.53606) (xy 84.396001 87.529503) (xy 84.395287 87.52471) (xy 84.494131 85.899981)
-				(xy 84.498054 85.891931) (xy 84.505809 85.888991) (xy 86.283791 85.888991)
+				(xy 101.353673 68.842006) (xy 101.354827 68.84316) (xy 102.052401 69.646067) (xy 102.342687 69.980187)
+				(xy 102.345526 69.988679) (xy 102.345497 69.989024) (xy 102.247054 70.973464) (xy 102.242821 70.981355)
+				(xy 102.235412 70.984) (xy 100.456588 70.984) (xy 100.448315 70.980573) (xy 100.444946 70.973464)
+				(xy 100.346502 69.989024) (xy 100.349089 69.980451) (xy 100.349284 69.980218) (xy 101.337168 68.843164)
+				(xy 101.345181 68.839167)
 			)
 		)
 	)
@@ -29651,7 +29236,7 @@
 		(net "Net-(C3-Pad1)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30000)
+		(priority 30005)
 		(attr
 			(teardrop
 				(type padvia)
@@ -29666,115 +29251,16 @@
 		)
 		(polygon
 			(pts
-				(xy 66.7148 105.373009) (xy 68.5148 105.373009) (xy 68.6148 103.591071) (xy 67.6148 103.272009)
-				(xy 66.6148 103.828978)
+				(xy 68.464 101.179791) (xy 66.664 101.179791) (xy 66.564 102.823522) (xy 67.564 103.280791) (xy 68.564 102.823522)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 67.619596 103.273539) (xy 68.606166 103.588316) (xy 68.613006 103.594095) (xy 68.614292 103.600118)
-				(xy 68.51542 105.361965) (xy 68.511535 105.370033) (xy 68.503738 105.373009) (xy 66.725767 105.373009)
-				(xy 66.717494 105.369582) (xy 66.714091 105.362065) (xy 66.714085 105.361965) (xy 66.615277 103.836354)
-				(xy 66.618162 103.82788) (xy 66.621256 103.825382) (xy 67.610378 103.274471) (xy 67.619271 103.273441)
-			)
-		)
-	)
-	(zone
-		(net "Net-(J1-Pin_1)")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30014)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 117.232 93.609) (xy 115.432 93.609) (xy 115.332 94.609) (xy 116.332 95.76) (xy 117.332 94.609)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 117.229685 93.612427) (xy 117.233054 93.619536) (xy 117.331497 94.603975) (xy 117.32891 94.612548)
-				(xy 117.328687 94.612812) (xy 116.340832 95.749834) (xy 116.332819 95.753832) (xy 116.324327 95.750993)
-				(xy 116.323168 95.749834) (xy 115.335312 94.612812) (xy 115.332473 94.60432) (xy 115.332502 94.603975)
-				(xy 115.430946 93.619536) (xy 115.435179 93.611645) (xy 115.442588 93.609) (xy 117.221412 93.609)
-			)
-		)
-	)
-	(zone
-		(net "Net-(C3-Pad1)")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30010)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 66.71787 101.157478) (xy 65.445078 102.43027) (xy 66.53666 103.663273) (xy 67.567105 103.279505)
-				(xy 67.950873 102.24906)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 66.726111 101.164774) (xy 67.944862 102.243738) (xy 67.948785 102.251788) (xy 67.948071 102.256581)
-				(xy 67.568972 103.274491) (xy 67.562874 103.281048) (xy 67.562091 103.281372) (xy 66.544181 103.660471)
-				(xy 66.535232 103.660147) (xy 66.531338 103.657262) (xy 65.452374 102.438511) (xy 65.449457 102.430048)
-				(xy 65.452861 102.422486) (xy 66.710086 101.165261) (xy 66.718358 101.161835)
-			)
-		)
-	)
-	(zone
-		(net "Net-(U1C-V+)")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30007)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 104.35113 90.002922) (xy 105.623922 88.73013) (xy 104.532339 87.497126) (xy 103.501895 87.880895)
-				(xy 103.118126 88.911339)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 104.533765 87.500251) (xy 104.537659 87.503135) (xy 104.876529 87.885908) (xy 105.616624 88.721886)
-				(xy 105.619542 88.730351) (xy 105.616137 88.737914) (xy 104.358914 89.995137) (xy 104.350641 89.998564)
-				(xy 104.342886 89.995624) (xy 103.124135 88.916659) (xy 103.120213 88.90861) (xy 103.120927 88.903817)
-				(xy 103.500028 87.885906) (xy 103.506126 87.879351) (xy 103.506884 87.879036) (xy 104.524818 87.499927)
+				(xy 68.461264 101.183218) (xy 68.464669 101.190781) (xy 68.563512 102.81551) (xy 68.560594 102.823976)
+				(xy 68.5567 102.82686) (xy 67.568866 103.278566) (xy 67.559917 103.27889) (xy 67.559135 103.278566)
+				(xy 66.5713 102.82686) (xy 66.565201 102.820303) (xy 66.564487 102.81551) (xy 66.663331 101.190781)
+				(xy 66.667254 101.182731) (xy 66.675009 101.179791) (xy 68.452991 101.179791)
 			)
 		)
 	)
@@ -29812,10 +29298,10 @@
 		)
 	)
 	(zone
-		(net "GND")
+		(net "Net-(J15-In)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30013)
+		(priority 30015)
 		(attr
 			(teardrop
 				(type padvia)
@@ -29830,80 +29316,16 @@
 		)
 		(polygon
 			(pts
-				(xy 90.0062 90.7436) (xy 91.8062 90.7436) (xy 91.9062 89.7436) (xy 90.9062 88.4926) (xy 89.9062 89.7436)
+				(xy 95.5404 89.1376) (xy 93.7404 89.1376) (xy 93.6404 90.1376) (xy 94.6404 91.2886) (xy 95.6404 90.1376)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 90.913505 88.502198) (xy 90.915335 88.504028) (xy 91.557788 89.307736) (xy 91.903222 89.739875)
-				(xy 91.905725 89.748344) (xy 91.807254 90.733064) (xy 91.803021 90.740955) (xy 91.795612 90.7436)
-				(xy 90.016788 90.7436) (xy 90.008515 90.740173) (xy 90.005146 90.733064) (xy 89.906674 89.748344)
-				(xy 89.909176 89.739876) (xy 90.897062 88.504031) (xy 90.904903 88.499709)
-			)
-		)
-	)
-	(zone
-		(net "Net-(U1C-V+)")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30012)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 105.540747 89.145) (xy 105.540747 87.345) (xy 104.396223 87.245) (xy 103.439747 88.245) (xy 103.439747 88.980609)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 104.401804 87.245487) (xy 105.530066 87.344066) (xy 105.538009 87.3482) (xy 105.540747 87.355722)
-				(xy 105.540747 89.132349) (xy 105.53732 89.140622) (xy 105.529047 89.144049) (xy 105.528134 89.144013)
-				(xy 103.450534 88.981453) (xy 103.442554 88.977392) (xy 103.439747 88.969789) (xy 103.439747 88.249694)
-				(xy 103.442992 88.241607) (xy 104.29032 87.355722) (xy 104.392342 87.249056) (xy 104.400537 87.245447)
-			)
-		)
-	)
-	(zone
-		(net "Net-(C12-Pad2)")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30004)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 89.191791 97.1948) (xy 89.191791 98.9948) (xy 90.835522 99.0948) (xy 91.292791 98.0948) (xy 90.835522 97.0948)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 90.835975 97.098205) (xy 90.83886 97.1021) (xy 91.290566 98.089935) (xy 91.29089 98.098883)
-				(xy 91.290566 98.099666) (xy 90.83886 99.0875) (xy 90.832303 99.093598) (xy 90.82751 99.094312)
-				(xy 89.202781 98.995468) (xy 89.194731 98.991545) (xy 89.191791 98.98379) (xy 89.191791 97.205809)
-				(xy 89.195218 97.197536) (xy 89.202779 97.194131) (xy 90.827511 97.095287)
+				(xy 95.538085 89.141027) (xy 95.541454 89.148136) (xy 95.639897 90.132575) (xy 95.63731 90.141148)
+				(xy 95.637087 90.141412) (xy 94.649232 91.278434) (xy 94.641219 91.282432) (xy 94.632727 91.279593)
+				(xy 94.631568 91.278434) (xy 93.643712 90.141412) (xy 93.640873 90.13292) (xy 93.640902 90.132575)
+				(xy 93.739346 89.148136) (xy 93.743579 89.140245) (xy 93.750988 89.1376) (xy 95.529812 89.1376)
 			)
 		)
 	)
@@ -29911,7 +29333,7 @@
 		(net "Net-(C3-Pad1)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30005)
+		(priority 30000)
 		(attr
 			(teardrop
 				(type padvia)
@@ -29926,82 +29348,17 @@
 		)
 		(polygon
 			(pts
-				(xy 68.464 101.179791) (xy 66.664 101.179791) (xy 66.564 102.823522) (xy 67.564 103.280791) (xy 68.564 102.823522)
+				(xy 66.7148 105.373009) (xy 68.5148 105.373009) (xy 68.6148 103.591071) (xy 67.6148 103.272009)
+				(xy 66.6148 103.828978)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 68.461264 101.183218) (xy 68.464669 101.190781) (xy 68.563512 102.81551) (xy 68.560594 102.823976)
-				(xy 68.5567 102.82686) (xy 67.568866 103.278566) (xy 67.559917 103.27889) (xy 67.559135 103.278566)
-				(xy 66.5713 102.82686) (xy 66.565201 102.820303) (xy 66.564487 102.81551) (xy 66.663331 101.190781)
-				(xy 66.667254 101.182731) (xy 66.675009 101.179791) (xy 68.452991 101.179791)
-			)
-		)
-	)
-	(zone
-		(net "Net-(C12-Pad2)")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30008)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 86.24093 97.724522) (xy 87.513722 96.45173) (xy 86.422139 95.218726) (xy 85.391695 95.602495)
-				(xy 85.007926 96.632939)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 86.423565 95.221851) (xy 86.427459 95.224735) (xy 86.766329 95.607508) (xy 87.506424 96.443486)
-				(xy 87.509342 96.451951) (xy 87.505937 96.459514) (xy 86.248714 97.716737) (xy 86.240441 97.720164)
-				(xy 86.232686 97.717224) (xy 85.013935 96.638259) (xy 85.010013 96.63021) (xy 85.010727 96.625417)
-				(xy 85.389828 95.607506) (xy 85.395926 95.600951) (xy 85.396684 95.600636) (xy 86.414618 95.221527)
-			)
-		)
-	)
-	(zone
-		(net "Net-(J6-Pin_1)")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30016)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 100.446 70.984) (xy 102.246 70.984) (xy 102.346 69.984) (xy 101.346 68.833) (xy 100.346 69.984)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 101.353673 68.842006) (xy 101.354827 68.84316) (xy 102.052401 69.646067) (xy 102.342687 69.980187)
-				(xy 102.345526 69.988679) (xy 102.345497 69.989024) (xy 102.247054 70.973464) (xy 102.242821 70.981355)
-				(xy 102.235412 70.984) (xy 100.456588 70.984) (xy 100.448315 70.980573) (xy 100.444946 70.973464)
-				(xy 100.346502 69.989024) (xy 100.349089 69.980451) (xy 100.349284 69.980218) (xy 101.337168 68.843164)
-				(xy 101.345181 68.839167)
+				(xy 67.619596 103.273539) (xy 68.606166 103.588316) (xy 68.613006 103.594095) (xy 68.614292 103.600118)
+				(xy 68.51542 105.361965) (xy 68.511535 105.370033) (xy 68.503738 105.373009) (xy 66.725767 105.373009)
+				(xy 66.717494 105.369582) (xy 66.714091 105.362065) (xy 66.714085 105.361965) (xy 66.615277 103.836354)
+				(xy 66.618162 103.82788) (xy 66.621256 103.825382) (xy 67.610378 103.274471) (xy 67.619271 103.273441)
 			)
 		)
 	)
@@ -30044,7 +29401,7 @@
 		(net "Net-(C3-Pad1)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30011)
+		(priority 30010)
 		(attr
 			(teardrop
 				(type padvia)
@@ -30059,22 +29416,49 @@
 		)
 		(polygon
 			(pts
-				(xy 92.541425 94.433999) (xy 92.541425 96.233999) (xy 93.082401 96.233999) (xy 93.718797 95.970395)
-				(xy 94.569274 95.261339) (xy 94.185505 94.230895) (xy 93.15506 93.847125) (xy 92.446005 94.697603)
-				(xy 93.082401 94.433999)
+				(xy 66.71787 101.157478) (xy 65.445078 102.43027) (xy 66.53666 103.663273) (xy 67.567105 103.279505)
+				(xy 67.950873 102.24906)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 93.162821 93.850015) (xy 94.180492 94.229028) (xy 94.187048 94.235126) (xy 94.187372 94.235908)
-				(xy 94.566382 95.253575) (xy 94.566058 95.262523) (xy 94.56291 95.266645) (xy 93.720165 95.969254)
-				(xy 93.71715 95.971076) (xy 93.084552 96.233108) (xy 93.080075 96.233999) (xy 92.553125 96.233999)
-				(xy 92.544852 96.230572) (xy 92.541425 96.222299) (xy 92.541425 94.658077) (xy 92.541424 94.658077)
-				(xy 92.489878 94.679429) (xy 92.480924 94.679429) (xy 92.474592 94.673097) (xy 92.474592 94.664143)
-				(xy 92.476412 94.66113) (xy 92.541425 94.583151) (xy 92.541425 94.445699) (xy 92.544852 94.437426)
-				(xy 92.553125 94.433999) (xy 92.665774 94.433999) (xy 92.665775 94.433999) (xy 93.149755 93.853486)
-				(xy 93.157684 93.849328)
+				(xy 66.726111 101.164774) (xy 67.944862 102.243738) (xy 67.948785 102.251788) (xy 67.948071 102.256581)
+				(xy 67.568972 103.274491) (xy 67.562874 103.281048) (xy 67.562091 103.281372) (xy 66.544181 103.660471)
+				(xy 66.535232 103.660147) (xy 66.531338 103.657262) (xy 65.452374 102.438511) (xy 65.449457 102.430048)
+				(xy 65.452861 102.422486) (xy 66.710086 101.165261) (xy 66.718358 101.161835)
+			)
+		)
+	)
+	(zone
+		(net "Net-(C12-Pad2)")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30004)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 89.191791 97.1948) (xy 89.191791 98.9948) (xy 90.835522 99.0948) (xy 91.292791 98.0948) (xy 90.835522 97.0948)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 90.835975 97.098205) (xy 90.83886 97.1021) (xy 91.290566 98.089935) (xy 91.29089 98.098883)
+				(xy 91.290566 98.099666) (xy 90.83886 99.0875) (xy 90.832303 99.093598) (xy 90.82751 99.094312)
+				(xy 89.202781 98.995468) (xy 89.194731 98.991545) (xy 89.191791 98.98379) (xy 89.191791 97.205809)
+				(xy 89.195218 97.197536) (xy 89.202779 97.194131) (xy 90.827511 97.095287)
 			)
 		)
 	)
@@ -30114,6 +29498,39 @@
 		)
 	)
 	(zone
+		(net "Net-(U1C-V+)")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30007)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 104.35113 90.002922) (xy 105.623922 88.73013) (xy 104.532339 87.497126) (xy 103.501895 87.880895)
+				(xy 103.118126 88.911339)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 104.533765 87.500251) (xy 104.537659 87.503135) (xy 104.876529 87.885908) (xy 105.616624 88.721886)
+				(xy 105.619542 88.730351) (xy 105.616137 88.737914) (xy 104.358914 89.995137) (xy 104.350641 89.998564)
+				(xy 104.342886 89.995624) (xy 103.124135 88.916659) (xy 103.120213 88.90861) (xy 103.120927 88.903817)
+				(xy 103.500028 87.885906) (xy 103.506126 87.879351) (xy 103.506884 87.879036) (xy 104.524818 87.499927)
+			)
+		)
+	)
+	(zone
 		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
@@ -30143,6 +29560,173 @@
 				(xy 83.9183 116.72066) (xy 82.930466 117.172366) (xy 82.921517 117.17269) (xy 82.920735 117.172366)
 				(xy 81.9329 116.72066) (xy 81.926801 116.714103) (xy 81.926087 116.70931) (xy 82.024931 115.084581)
 				(xy 82.028854 115.076531) (xy 82.036609 115.073591) (xy 83.814591 115.073591)
+			)
+		)
+	)
+	(zone
+		(net "Net-(U1C-V-)")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30003)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 86.2948 85.888991) (xy 84.4948 85.888991) (xy 84.3948 87.532722) (xy 85.3948 87.989991) (xy 86.3948 87.532722)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 86.292064 85.892418) (xy 86.295469 85.899981) (xy 86.394312 87.52471) (xy 86.391394 87.533176)
+				(xy 86.3875 87.53606) (xy 85.399666 87.987766) (xy 85.390717 87.98809) (xy 85.389935 87.987766)
+				(xy 84.4021 87.53606) (xy 84.396001 87.529503) (xy 84.395287 87.52471) (xy 84.494131 85.899981)
+				(xy 84.498054 85.891931) (xy 84.505809 85.888991) (xy 86.283791 85.888991)
+			)
+		)
+	)
+	(zone
+		(net "Net-(C3-Pad1)")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30011)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 92.541425 94.433999) (xy 92.541425 96.233999) (xy 93.082401 96.233999) (xy 93.718797 95.970395)
+				(xy 94.569274 95.261339) (xy 94.185505 94.230895) (xy 93.15506 93.847125) (xy 92.446005 94.697603)
+				(xy 93.082401 94.433999)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 93.162821 93.850015) (xy 94.180492 94.229028) (xy 94.187048 94.235126) (xy 94.187372 94.235908)
+				(xy 94.566382 95.253575) (xy 94.566058 95.262523) (xy 94.56291 95.266645) (xy 93.720165 95.969254)
+				(xy 93.71715 95.971076) (xy 93.084552 96.233108) (xy 93.080075 96.233999) (xy 92.553125 96.233999)
+				(xy 92.544852 96.230572) (xy 92.541425 96.222299) (xy 92.541425 94.658077) (xy 92.541424 94.658077)
+				(xy 92.489878 94.679429) (xy 92.480924 94.679429) (xy 92.474592 94.673097) (xy 92.474592 94.664143)
+				(xy 92.476412 94.66113) (xy 92.541425 94.583151) (xy 92.541425 94.445699) (xy 92.544852 94.437426)
+				(xy 92.553125 94.433999) (xy 92.665774 94.433999) (xy 92.665775 94.433999) (xy 93.149755 93.853486)
+				(xy 93.157684 93.849328)
+			)
+		)
+	)
+	(zone
+		(net "Net-(U1C-V+)")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30012)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 105.540747 89.145) (xy 105.540747 87.345) (xy 104.396223 87.245) (xy 103.439747 88.245) (xy 103.439747 88.980609)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 104.401804 87.245487) (xy 105.530066 87.344066) (xy 105.538009 87.3482) (xy 105.540747 87.355722)
+				(xy 105.540747 89.132349) (xy 105.53732 89.140622) (xy 105.529047 89.144049) (xy 105.528134 89.144013)
+				(xy 103.450534 88.981453) (xy 103.442554 88.977392) (xy 103.439747 88.969789) (xy 103.439747 88.249694)
+				(xy 103.442992 88.241607) (xy 104.29032 87.355722) (xy 104.392342 87.249056) (xy 104.400537 87.245447)
+			)
+		)
+	)
+	(zone
+		(net "Net-(J1-Pin_1)")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30014)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 117.232 93.609) (xy 115.432 93.609) (xy 115.332 94.609) (xy 116.332 95.76) (xy 117.332 94.609)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 117.229685 93.612427) (xy 117.233054 93.619536) (xy 117.331497 94.603975) (xy 117.32891 94.612548)
+				(xy 117.328687 94.612812) (xy 116.340832 95.749834) (xy 116.332819 95.753832) (xy 116.324327 95.750993)
+				(xy 116.323168 95.749834) (xy 115.335312 94.612812) (xy 115.332473 94.60432) (xy 115.332502 94.603975)
+				(xy 115.430946 93.619536) (xy 115.435179 93.611645) (xy 115.442588 93.609) (xy 117.221412 93.609)
+			)
+		)
+	)
+	(zone
+		(net "Net-(C12-Pad2)")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30008)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 86.24093 97.724522) (xy 87.513722 96.45173) (xy 86.422139 95.218726) (xy 85.391695 95.602495)
+				(xy 85.007926 96.632939)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 86.423565 95.221851) (xy 86.427459 95.224735) (xy 86.766329 95.607508) (xy 87.506424 96.443486)
+				(xy 87.509342 96.451951) (xy 87.505937 96.459514) (xy 86.248714 97.716737) (xy 86.240441 97.720164)
+				(xy 86.232686 97.717224) (xy 85.013935 96.638259) (xy 85.010013 96.63021) (xy 85.010727 96.625417)
+				(xy 85.389828 95.607506) (xy 85.395926 95.600951) (xy 85.396684 95.600636) (xy 86.414618 95.221527)
 			)
 		)
 	)
@@ -30180,10 +29764,10 @@
 		)
 	)
 	(zone
-		(net "Net-(J15-In)")
+		(net "GND")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30015)
+		(priority 30013)
 		(attr
 			(teardrop
 				(type padvia)
@@ -30198,16 +29782,16 @@
 		)
 		(polygon
 			(pts
-				(xy 95.5404 89.1376) (xy 93.7404 89.1376) (xy 93.6404 90.1376) (xy 94.6404 91.2886) (xy 95.6404 90.1376)
+				(xy 90.0062 90.7436) (xy 91.8062 90.7436) (xy 91.9062 89.7436) (xy 90.9062 88.4926) (xy 89.9062 89.7436)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 95.538085 89.141027) (xy 95.541454 89.148136) (xy 95.639897 90.132575) (xy 95.63731 90.141148)
-				(xy 95.637087 90.141412) (xy 94.649232 91.278434) (xy 94.641219 91.282432) (xy 94.632727 91.279593)
-				(xy 94.631568 91.278434) (xy 93.643712 90.141412) (xy 93.640873 90.13292) (xy 93.640902 90.132575)
-				(xy 93.739346 89.148136) (xy 93.743579 89.140245) (xy 93.750988 89.1376) (xy 95.529812 89.1376)
+				(xy 90.913505 88.502198) (xy 90.915335 88.504028) (xy 91.557788 89.307736) (xy 91.903222 89.739875)
+				(xy 91.905725 89.748344) (xy 91.807254 90.733064) (xy 91.803021 90.740955) (xy 91.795612 90.7436)
+				(xy 90.016788 90.7436) (xy 90.008515 90.740173) (xy 90.005146 90.733064) (xy 89.906674 89.748344)
+				(xy 89.909176 89.739876) (xy 90.897062 88.504031) (xy 90.904903 88.499709)
 			)
 		)
 	)
