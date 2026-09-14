@@ -2421,12 +2421,6 @@
 		(uuid "0c8d8856-9c3e-40b1-af4c-4e670432e7df")
 	)
 	(junction
-		(at 218.44 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "192fb0e5-8916-4805-a883-99c9e027879b")
-	)
-	(junction
 		(at 105.41 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2437,6 +2431,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f3e3d51-a24c-431d-a4c3-3cd636a5ed50")
+	)
+	(junction
+		(at 213.36 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "237b09b7-928b-4c32-816d-57a2f6236e6f")
 	)
 	(junction
 		(at 113.03 152.4)
@@ -2475,12 +2475,6 @@
 		(uuid "43d198eb-592a-476f-b346-0aab73994436")
 	)
 	(junction
-		(at 218.44 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4492790b-ab4f-4b8b-a7c6-9140489832e4")
-	)
-	(junction
 		(at 116.84 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2497,6 +2491,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a938a83-2714-43b4-bfc5-79063e46b093")
+	)
+	(junction
+		(at 213.36 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b0738fb-6b22-426c-a9a0-bdcb43a7e1c5")
 	)
 	(junction
 		(at 152.4 34.29)
@@ -2846,16 +2846,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 151.13) (xy 223.52 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11c00c88-f9f4-41f3-a831-650f462c10ef")
-	)
-	(wire
-		(pts
 			(xy 116.84 157.48) (xy 116.84 161.29)
 		)
 		(stroke
@@ -3186,16 +3176,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 125.73) (xy 218.44 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e028341-a185-4a8e-82ad-00111b2d2d14")
-	)
-	(wire
-		(pts
 			(xy 71.12 76.2) (xy 71.12 34.29)
 		)
 		(stroke
@@ -3203,16 +3183,6 @@
 			(type default)
 		)
 		(uuid "41904054-f688-4cd5-99e0-ac5255f1371d")
-	)
-	(wire
-		(pts
-			(xy 223.52 125.73) (xy 218.44 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424b19ce-63ed-4d70-85e5-f43d40a2d845")
 	)
 	(wire
 		(pts
@@ -3506,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 130.81) (xy 228.6 130.81)
+			(xy 217.17 130.81) (xy 228.6 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3656,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 114.3) (xy 218.44 114.3)
+			(xy 60.96 114.3) (xy 213.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3746,16 +3716,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 114.3) (xy 218.44 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983536b5-6677-4ec0-a65c-adac7e3d8b09")
-	)
-	(wire
-		(pts
 			(xy 166.37 54.61) (xy 161.29 54.61)
 		)
 		(stroke
@@ -3806,7 +3766,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 125.73) (xy 223.52 127)
+			(xy 213.36 114.3) (xy 213.36 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3946,6 +3906,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 124.46) (xy 213.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beaed819-2bc7-434f-b748-efcee158c19f")
+	)
+	(wire
+		(pts
 			(xy 133.35 80.01) (xy 133.35 91.44)
 		)
 		(stroke
@@ -4016,7 +3986,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 151.13) (xy 223.52 134.62)
+			(xy 213.36 134.62) (xy 213.36 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5003,7 +4973,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 223.52 124.46 180)
+		(at 218.44 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5013,7 +4983,7 @@
 		(dnp no)
 		(uuid "106aeece-1d85-43c1-9764-42a2dfa773d4")
 		(property "Reference" "J20"
-			(at 223.52 120.396 0)
+			(at 218.44 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5024,7 +4994,7 @@
 			)
 		)
 		(property "Value" "VR3_1"
-			(at 225.552 122.682 0)
+			(at 220.472 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5035,7 +5005,7 @@
 			)
 		)
 		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 223.52 124.46 0)
+			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5046,7 +5016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 124.46 0)
+			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,7 +5027,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 223.52 124.46 0)
+			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6034,7 +6004,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 223.52 130.81 0)
+		(at 213.36 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6044,7 +6014,7 @@
 		(dnp no)
 		(uuid "34dd1aac-4ae6-45b9-a8cc-90881b509a12")
 		(property "Reference" "VR3"
-			(at 220.218 130.048 0)
+			(at 210.058 130.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6055,7 +6025,7 @@
 			)
 		)
 		(property "Value" "B50k"
-			(at 221.234 132.588 0)
+			(at 211.074 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6066,7 +6036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 130.81 0)
+			(at 213.36 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6077,7 +6047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 130.81 0)
+			(at 213.36 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +6058,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 223.52 130.81 0)
+			(at 213.36 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
