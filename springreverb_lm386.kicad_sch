@@ -6691,7 +6691,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.022u"
+		(property "Value" "4700p"
 			(at 100.838 144.272 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +8468,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "470p"
 			(at 100.838 153.162 90)
 			(show_name no)
 			(do_not_autoplace no)
