@@ -2421,6 +2421,12 @@
 		(uuid "0c8d8856-9c3e-40b1-af4c-4e670432e7df")
 	)
 	(junction
+		(at 105.41 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb099cd-b01f-4317-9735-2a6e1046f76b")
+	)
+	(junction
 		(at 105.41 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2431,12 +2437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f3e3d51-a24c-431d-a4c3-3cd636a5ed50")
-	)
-	(junction
-		(at 213.36 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "237b09b7-928b-4c32-816d-57a2f6236e6f")
 	)
 	(junction
 		(at 113.03 152.4)
@@ -2481,6 +2481,18 @@
 		(uuid "43d198eb-592a-476f-b346-0aab73994436")
 	)
 	(junction
+		(at 213.36 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "456562cc-2a2f-45f0-a690-a60f10fc35fd")
+	)
+	(junction
+		(at 110.49 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4570ca7a-b035-4034-91d0-a525cc2d274e")
+	)
+	(junction
 		(at 116.84 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2499,7 +2511,7 @@
 		(uuid "5a938a83-2714-43b4-bfc5-79063e46b093")
 	)
 	(junction
-		(at 213.36 124.46)
+		(at 222.25 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b0738fb-6b22-426c-a9a0-bdcb43a7e1c5")
@@ -2533,6 +2545,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64ac6ea0-34c1-4dca-929a-91e938ce26d8")
+	)
+	(junction
+		(at 213.36 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "673f8769-4161-4817-8a4d-0d88114caf96")
 	)
 	(junction
 		(at 114.3 91.44)
@@ -2571,6 +2589,12 @@
 		(uuid "847cf2e8-264f-43ed-bddc-6118081c577c")
 	)
 	(junction
+		(at 213.36 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a37051-ffd8-49ce-acf8-9367ea903a5c")
+	)
+	(junction
 		(at 175.26 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2593,12 +2617,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93cd29b5-333c-4eed-9eb1-19718b807ddb")
-	)
-	(junction
-		(at 213.36 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "995b956f-8b97-4c20-ae3c-8228ac355a2c")
 	)
 	(junction
 		(at 93.98 147.32)
@@ -2629,6 +2647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a69109f1-306c-4ab5-b35d-893788d100cd")
+	)
+	(junction
+		(at 219.71 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6cdb83a-f2f4-4c33-b108-4b4ce46d33c7")
 	)
 	(junction
 		(at 134.62 162.56)
@@ -2685,12 +2709,6 @@
 		(uuid "c0e01a1f-4468-4c5e-ae73-1775c92de236")
 	)
 	(junction
-		(at 213.36 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c75f79b4-f87e-4c22-9e1a-297d03a8f93b")
-	)
-	(junction
 		(at 102.87 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2701,12 +2719,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d787fd88-386e-4ce4-a66a-6305b912bf2b")
-	)
-	(junction
-		(at 213.36 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7fe0f28-8e8d-4231-9b31-5fca58106f83")
 	)
 	(junction
 		(at 58.42 68.58)
@@ -2910,16 +2922,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 162.56) (xy 237.49 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b832214-6c4c-4582-bcf6-3623e55c7042")
-	)
-	(wire
-		(pts
 			(xy 196.85 140.97) (xy 199.39 140.97)
 		)
 		(stroke
@@ -2927,16 +2929,6 @@
 			(type default)
 		)
 		(uuid "1c51e331-a161-4768-ad7b-5e19c173a0e4")
-	)
-	(wire
-		(pts
-			(xy 213.36 157.48) (xy 218.44 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e077b7c-f190-46af-8019-8b7be50807b7")
 	)
 	(wire
 		(pts
@@ -3010,6 +3002,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 151.13) (xy 219.71 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263212ad-e12d-4d78-a276-d5034fbe7696")
+	)
+	(wire
+		(pts
 			(xy 237.49 148.59) (xy 237.49 162.56)
 		)
 		(stroke
@@ -3020,7 +3022,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 140.97) (xy 213.36 146.05)
+			(xy 213.36 140.97) (xy 213.36 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3037,6 +3039,16 @@
 			(type default)
 		)
 		(uuid "2b8cd127-df8b-461a-80b9-b3025e281013")
+	)
+	(wire
+		(pts
+			(xy 219.71 146.05) (xy 213.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba045e3-31b3-4137-8250-d5e9fc62dfeb")
 	)
 	(wire
 		(pts
@@ -3090,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 151.13) (xy 218.44 151.13)
+			(xy 217.17 151.13) (xy 219.71 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3127,6 +3139,16 @@
 			(type default)
 		)
 		(uuid "360523a0-37f5-4e87-8371-5cabafcbbf01")
+	)
+	(wire
+		(pts
+			(xy 104.14 140.97) (xy 105.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3781f51f-8f1d-4d10-b258-a6eeaa9558c6")
 	)
 	(wire
 		(pts
@@ -3310,16 +3332,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 157.48) (xy 213.36 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a059846-f3d2-400e-af57-6312dce5dcad")
-	)
-	(wire
-		(pts
 			(xy 156.21 54.61) (xy 152.4 54.61)
 		)
 		(stroke
@@ -3430,6 +3442,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 146.05) (xy 213.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9be769-8933-4001-af99-283577c9d0e7")
+	)
+	(wire
+		(pts
 			(xy 92.71 91.44) (xy 114.3 91.44)
 		)
 		(stroke
@@ -3460,16 +3482,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 154.94) (xy 213.36 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7570ffaa-839f-46cb-8921-bd23acd09e2c")
-	)
-	(wire
-		(pts
 			(xy 123.19 68.58) (xy 133.35 68.58)
 		)
 		(stroke
@@ -3490,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 130.81) (xy 228.6 130.81)
+			(xy 226.06 130.81) (xy 228.6 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3567,6 +3579,16 @@
 			(type default)
 		)
 		(uuid "846e4d24-20a1-4786-a405-4c8b13aef6df")
+	)
+	(wire
+		(pts
+			(xy 104.14 135.89) (xy 104.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a1138f-7b5f-4063-ba2b-64a1955a153f")
 	)
 	(wire
 		(pts
@@ -3650,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 114.3) (xy 213.36 114.3)
+			(xy 60.96 114.3) (xy 222.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3750,6 +3772,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 162.56) (xy 237.49 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bff818-f336-481c-8516-fcfaebbe88e7")
+	)
+	(wire
+		(pts
 			(xy 71.12 144.78) (xy 71.12 146.05)
 		)
 		(stroke
@@ -3800,7 +3832,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 213.36 124.46)
+			(xy 222.25 114.3) (xy 222.25 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3827,6 +3859,16 @@
 			(type default)
 		)
 		(uuid "a4be5880-87a3-4a6d-acce-310bcf70ef15")
+	)
+	(wire
+		(pts
+			(xy 219.71 151.13) (xy 222.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bd73ca-02cd-4b50-b74e-1ecbef236723")
 	)
 	(wire
 		(pts
@@ -3880,6 +3922,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 129.54) (xy 110.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3befd7c-f065-488e-a07e-b0f682fd86ae")
+	)
+	(wire
+		(pts
 			(xy 165.1 154.94) (xy 165.1 158.75)
 		)
 		(stroke
@@ -3900,13 +3952,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 118.11) (xy 110.49 130.81)
+			(xy 110.49 118.11) (xy 110.49 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b853c6ee-9745-4663-908d-d9540e99b054")
+	)
+	(wire
+		(pts
+			(xy 222.25 134.62) (xy 222.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc29840a-b55b-4207-a627-b6767317d682")
 	)
 	(wire
 		(pts
@@ -3920,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 124.46) (xy 213.36 127)
+			(xy 222.25 124.46) (xy 222.25 127)
 		)
 		(stroke
 			(width 0)
@@ -4000,16 +4062,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 134.62) (xy 213.36 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5855379-f8bb-4842-a53d-18a21f5971dc")
-	)
-	(wire
-		(pts
 			(xy 58.42 87.63) (xy 58.42 91.44)
 		)
 		(stroke
@@ -4077,6 +4129,16 @@
 			(type default)
 		)
 		(uuid "d20db68f-fd3f-4213-9369-d0cc2cc4dfae")
+	)
+	(wire
+		(pts
+			(xy 104.14 130.81) (xy 104.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32afa1c-628a-4de3-a266-10c9b83bd1e4")
 	)
 	(wire
 		(pts
@@ -4180,6 +4242,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 154.94) (xy 213.36 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de58f12b-5d14-4ddc-ad0a-32755eca06d5")
+	)
+	(wire
+		(pts
 			(xy 93.98 146.05) (xy 93.98 147.32)
 		)
 		(stroke
@@ -4210,7 +4282,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 146.05) (xy 213.36 147.32)
+			(xy 213.36 143.51) (xy 213.36 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4230,13 +4302,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 157.48) (xy 218.44 151.13)
+			(xy 213.36 161.29) (xy 213.36 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e999adbb-6900-4d4f-963c-5e9227dc7f05")
+		(uuid "e9b1a15d-75f4-4e6f-95b1-ab5e2b1cabf1")
 	)
 	(wire
 		(pts
@@ -4290,6 +4362,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 129.54) (xy 110.49 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15084c9-03d3-4821-ba51-9f4e2a2a5cac")
+	)
+	(wire
+		(pts
 			(xy 166.37 41.91) (xy 175.26 41.91)
 		)
 		(stroke
@@ -4330,7 +4412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04970182-8f2b-4cf1-8dd3-bbfe6f0aa513")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 160.655 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4389,7 +4471,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4407,7 +4489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0684b4fb-1be1-4f03-aaff-161b574a47bc")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 178.435 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4466,7 +4548,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4474,7 +4556,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 218.44 146.05 180)
+		(at 218.44 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4483,8 +4565,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d0e4802-d623-4b22-9d84-6da0557144a9")
-		(property "Reference" "J17"
-			(at 217.678 141.478 0)
+		(property "Reference" "J15"
+			(at 217.678 138.938 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4494,7 +4576,7 @@
 			)
 		)
 		(property "Value" "VR_3_1"
-			(at 217.678 144.018 0)
+			(at 217.678 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4504,7 +4586,7 @@
 			)
 		)
 		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 218.44 146.05 0)
+			(at 218.44 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4515,7 +4597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 146.05 0)
+			(at 218.44 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,7 +4608,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 218.44 146.05 0)
+			(at 218.44 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4624,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J17")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d193b2b-dacd-4f86-962c-b5936b49e33a")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 115.062 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,7 +4705,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4641,7 +4723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d3fc257-1e8d-4e8e-9b38-fc6997abeb7f")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 99.06 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4702,7 +4784,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4889,7 +4971,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 218.44 124.46 180)
+		(at 227.33 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4899,7 +4981,7 @@
 		(dnp no)
 		(uuid "106aeece-1d85-43c1-9764-42a2dfa773d4")
 		(property "Reference" "J16"
-			(at 218.44 120.396 0)
+			(at 227.33 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4910,7 +4992,7 @@
 			)
 		)
 		(property "Value" "VR4_1"
-			(at 220.472 122.682 0)
+			(at 229.362 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4921,7 +5003,7 @@
 			)
 		)
 		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 218.44 124.46 0)
+			(at 227.33 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4932,7 +5014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 124.46 0)
+			(at 227.33 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4943,7 +5025,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 218.44 124.46 0)
+			(at 227.33 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5294,7 +5376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1df7dce7-cdc3-4f46-b427-20f27f7e8cd7")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 164.338 47.2378 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,7 +5440,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5522,6 +5604,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 104.14 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e2f55da-da9f-4cd3-bf31-29bfd6851157")
+		(property "Reference" "C7"
+			(at 100.076 129.794 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 101.346 131.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79f58707-793a-4668-b822-98abc842ab3c")
+		)
+		(pin "1"
+			(uuid "705a4621-4ecc-403b-bea8-934ee5760e46")
+		)
+		(instances
+			(project "springreverb_lm386"
+				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 137.16 49.53 0)
 		(unit 1)
@@ -5611,7 +5774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "304ba090-d693-4369-9f51-8941d3885a50")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 181.61 132.7149 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5672,7 +5835,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -5689,7 +5852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30ba04b6-6ab7-4f25-9ea1-02c7737713af")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 135.89 76.2062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5753,7 +5916,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5771,7 +5934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33192f8f-6287-4bc8-8dc6-00fcbecbee32")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 157.988 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5835,7 +5998,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5843,7 +6006,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 213.36 130.81 0)
+		(at 222.25 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5852,8 +6015,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34dd1aac-4ae6-45b9-a8cc-90881b509a12")
-		(property "Reference" "VR3"
-			(at 210.058 130.048 0)
+		(property "Reference" "VR4"
+			(at 218.948 130.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5864,7 +6027,7 @@
 			)
 		)
 		(property "Value" "B50k"
-			(at 211.074 132.588 0)
+			(at 219.964 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5875,7 +6038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 130.81 0)
+			(at 222.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +6049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 130.81 0)
+			(at 222.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5897,7 +6060,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 213.36 130.81 0)
+			(at 222.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5919,7 +6082,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "VR3")
+					(reference "VR4")
 					(unit 1)
 				)
 			)
@@ -6103,7 +6266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e2fface-a3fb-479e-a58a-c3142a8180cc")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 116.84 79.8831 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6330,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6364,7 +6527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bbb36c4-04c6-4c6a-8384-ac46dd1f3849")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 125.73 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6425,7 +6588,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6524,7 +6687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5313ab54-9cf8-4193-a472-42920e8febb5")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 164.084 25.908 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6751,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6605,7 +6768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53229520-40aa-4ab7-827a-88f522a3b5be")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 162.306 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6669,7 +6832,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -6686,7 +6849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c60c538-6659-4bf1-8dbc-7824b1a8976a")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 233.68 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6750,7 +6913,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ebf8be7-87fb-468b-8e11-485be0981da3")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 122.174 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6829,7 +6992,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6924,7 +7087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "671cb31c-f4fd-4d41-ba37-1c948cc8e276")
-		(property "Reference" "J18"
+		(property "Reference" "J17"
 			(at 244.475 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6983,7 +7146,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J18")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -7405,6 +7568,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 213.36 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d889459-50df-4774-a769-d6b3bc03488c")
+		(property "Reference" "C21"
+			(at 221.615 157.607 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047uF"
+			(at 223.139 159.639 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac3080ac-0672-48cc-a153-068eda1f364c")
+		)
+		(pin "1"
+			(uuid "e8f25a6c-5072-4d8b-a927-aa1c0acee935")
+		)
+		(instances
+			(project "springreverb_lm386"
+				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 165.1 149.86 90)
 		(unit 1)
@@ -7496,7 +7740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f629664-fde0-435f-8808-0360531bd4cc")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 204.47 145.542 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7560,7 +7804,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7653,7 +7897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "787aceca-c482-44f1-9c5b-506e61bd4ae0")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 142.494 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7717,7 +7961,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7986,7 +8230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8093cad0-25e6-4c32-81cd-c148f1cddcc7")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 120.65 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,7 +8294,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8302,7 +8546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d055225-1f3f-4d5a-b2bc-8a7c550aba05")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 164.846 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8366,7 +8610,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8461,7 +8705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98184e9e-59fe-4c84-a7dc-4a06fcf5ca77")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 142.748 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8525,7 +8769,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8543,7 +8787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bf4baf0-17bc-46a7-b53f-6135a7cddee2")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 175.006 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,7 +8851,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8624,7 +8868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6bfa6af-6846-43e7-9041-041077cdefe5")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 152.4 131.064 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,7 +8929,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8703,7 +8947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac927a05-aa32-4af6-af70-9c59b183636e")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 125.73 78.6131 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8767,7 +9011,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9034,6 +9278,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 213.36 151.13 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9042,8 +9287,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc03b21f-4557-4374-a588-7e4e3bc559ad")
-		(property "Reference" "VR4"
-			(at 210.312 150.114 0)
+		(property "Reference" "VR3"
+			(at 210.312 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9054,7 +9299,7 @@
 			)
 		)
 		(property "Value" "B20k"
-			(at 210.82 152.4 0)
+			(at 210.82 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9109,7 +9354,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "VR4")
+					(reference "VR3")
 					(unit 1)
 				)
 			)
@@ -9847,7 +10092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ae9830-e2f3-4e9c-908b-6065c418cdb3")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 107.95 77.5969 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9911,7 +10156,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10091,7 +10336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed5ee5a8-5fef-4827-9a3c-45090ed204bb")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 92.71 150.4949 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10152,7 +10397,7 @@
 		(instances
 			(project "springreverb_lm386"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
